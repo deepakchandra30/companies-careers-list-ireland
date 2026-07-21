@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Ireland IT Careers Pages</title>
+  <meta name="description" content="A searchable list of company careers page links in Ireland for IT, tech, software, and engineering jobs." />
+  <meta name="keywords" content="companies career pages links ireland, ireland company careers page, ireland tech jobs, careers page links ireland, it jobs ireland, software jobs ireland" />
+  <title>Companies Careers Pages Ireland | Ireland Tech Jobs Links</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 24px; max-width: 1100px; }
     h1 { margin-bottom: 8px; }
@@ -20,7 +22,7 @@
 </head>
 <body>
   <h1>Companies Careers Pages Ireland (IT)</h1>
-  <div class="muted">Verified careers links for companies hiring IT talent in Ireland.</div>
+  <div class="muted">Verified careers links for companies hiring IT talent in Ireland. Search by company name or URL.</div>
   
   <input id="search" type="text" placeholder="Search company or URL..." />
   <div class="count" id="count">Loading...</div>
@@ -53,7 +55,6 @@
       const data = [];
       for (let i = 1; i < lines.length; i++) {
         const line = lines[i];
-        // simple split for 2-column CSV (company_name,careers_page_link)
         const firstComma = line.indexOf(",");
         if (firstComma === -1) continue;
         const company = line.slice(0, firstComma).replace(/^"|"$/g, "");

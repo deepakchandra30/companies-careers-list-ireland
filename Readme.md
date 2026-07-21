@@ -6,7 +6,11 @@ A curated, searchable list of **company careers page links in Ireland** for peop
 
 Finding Ireland careers pages is often surprisingly hard because company job links are buried across websites, job boards, and regional pages. This repo brings those links together in one place so you can quickly search by company name or careers URL.
 
+<<<<<<< HEAD
 ## What you'll find
+=======
+## What you’ll find
+>>>>>>> 798f602e1248e664940484b683054abf08adcf7b
 
 - 380+ companies with direct careers pages
 - Ireland-focused and Ireland-relevant employers
@@ -70,10 +74,10 @@ Finding Ireland careers pages is often surprisingly hard because company job lin
 - **Afiniti AI Limited**: [Career Page](https://www.afiniti.com/careers)
 - **Agilent Technologies Ireland Limited**: [Career Page](https://careers.agilent.com/)
 - **AIG Europe SA**: [Career Page](https://www.aig.com/careers)
-- **Allied Irish Banks**: [Career Page](Public Limited Company)
+- **Allied Irish Banks**: [Career Page](https://aib.ie/careers)
 - **Amazon Data Services Ireland Limited**: [Career Page](https://www.amazon.jobs/en/locations/dublin-ireland)
 - **Amazon Development Centre Ireland Limited**: [Career Page](https://www.amazon.jobs/en/locations/dublin-ireland)
-- **Amazon EU Sarl**: [Career Page](Irish Branch)
+- **Amazon EU Sarl, Irish Branch**: [Career Page](https://www.amazon.jobs/en/locations/dublin-ireland)
 - **Amazon Ireland Support Services Limited**: [Career Page](https://www.amazon.jobs/en/locations/dublin-ireland)
 - **Amazon Web Services EMEA SARL**: [Career Page](https://www.amazon.jobs/en/teams/amazon-web-services)
 - **Amdocs Software Systems Limited**: [Career Page](https://www.amdocs.com/careers)
