@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ireland IT Careers Pages</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; max-width: 1100px; }
+    h1 { margin-bottom: 8px; }
+    .muted { color: #666; margin-bottom: 18px; }
+    input { width: 100%; padding: 10px; margin: 12px 0 18px; font-size: 16px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; border-bottom: 1px solid #eee; padding: 10px 8px; }
+    th { background: #fafafa; position: sticky; top: 0; }
+    a { color: #0b57d0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .count { margin: 8px 0 14px; font-weight: 600; }
+    .small { font-size: 12px; color: #777; margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <h1>Companies Careers Pages Ireland (IT)</h1>
+  <div class="muted">Verified careers links for companies hiring IT talent in Ireland.</div>
+  
+  <input id="search" type="text" placeholder="Search company or URL..." />
+  <div class="count" id="count">Loading...</div>
+
+  <table id="tbl">
+    <thead>
+      <tr>
+        <th>Company</th>
+        <th>Careers Page</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <div class="small">
+    Source: curated CSV list.  
+    Last updated: <span id="updated"></span>
+  </div>
+
+  <script>
+    const tbody = document.querySelector("#tbl tbody");
+    const search = document.getElementById("search");
+    const count = document.getElementById("count");
+    document.getElementById("updated").textContent = new Date().toISOString().slice(0,10);
+
+    let rows = [];
+
+    function parseCSV(text) {
+      const lines = text.trim().split(/\r?\n/);
+      const data = [];
+      for (let i = 1; i < lines.length; i++) {
+        const line = lines[i];
+        // simple split for 2-column CSV (company_name,careers_page_link)
+        const firstComma = line.indexOf(",");
+        if (firstComma === -1) continue;
+        const company = line.slice(0, firstComma).replace(/^"|"$/g, "");
+        const link = line.slice(firstComma + 1).replace(/^"|"$/g, "");
+        data.push({ company, link });
+      }
+      return data;
+    }
+
+    function render(data) {
+      tbody.innerHTML = "";
+      data.forEach(r => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${r.company}</td>
+          <td><a href="${r.link}" target="_blank" rel="noopener noreferrer">${r.link}</a></td>
+        `;
+        tbody.appendChild(tr);
+      });
+      count.textContent = `${data.length} companies`;
+    }
+
+    fetch("./companies.csv")
+      .then(r => r.text())
+      .then(text => {
+        rows = parseCSV(text);
+        render(rows);
+      })
+      .catch(() => {
+        count.textContent = "Could not load companies.csv";
+      });
+
+    search.addEventListener("input", () => {
+      const q = search.value.toLowerCase().trim();
+      if (!q) return render(rows);
+      const filtered = rows.filter(r =>
+        r.company.toLowerCase().includes(q) || r.link.toLowerCase().includes(q)
+      );
+      render(filtered);
+    });
+  </script>
+</body>
+</html>
