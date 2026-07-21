@@ -4,6 +4,8 @@ A curated list of companies in Ireland (and Ireland-relevant entities) that hire
 
 > ✅ Links are periodically validated  
 > 🔎 Use browser search (`Ctrl/Cmd + F`) to find a company quickly
+> 📝 Please raise an issue if you find a broken link — I'll fix it as soon as possible
+> ➕ If you know of a company missing from this list, please let me know via Issues
 
 ---
 
@@ -11,6 +13,12 @@ A curated list of companies in Ireland (and Ireland-relevant entities) that hire
 
 - `companies.csv` (master file): `./companies.csv`
 - Columns: `company_name, careers_page_link`
+
+---
+
+## Stats
+
+- Total companies listed: **380**
 
 ---
 
@@ -405,4 +413,3 @@ _Last generated: 2026-07-21_
 ## Also Included (Worldwide List)
 
 > Keep your worldwide list below this section (manual content).
-
