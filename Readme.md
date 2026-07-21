@@ -410,6 +410,3 @@ _Last generated: 2026-07-21_
 
 ---
 
-## Also Included (Worldwide List)
-
-> Keep your worldwide list below this section (manual content).
