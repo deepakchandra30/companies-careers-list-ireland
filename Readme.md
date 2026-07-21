@@ -1,26 +1,47 @@
 # Companies Careers Pages Ireland (IT)
 
-A curated list of companies in Ireland (and Ireland-relevant entities) that hire for IT/tech roles, with direct careers pages.
+A curated, searchable list of **company careers page links in Ireland** for people looking for **IT, tech, software, and engineering jobs**.
 
-> ✅ Links are periodically validated  
-> 🔎 Use browser search (`Ctrl/Cmd + F`) to find a company quickly
-> 📝 Please raise an issue if you find a broken link — I'll fix it as soon as possible
-> ➕ If you know of a company missing from this list, please let me know via Issues
+## Why this repo exists
 
----
+Finding Ireland careers pages is often surprisingly hard because company job links are buried across websites, job boards, and regional pages. This repo brings those links together in one place so you can quickly search by company name or careers URL.
 
-## Quick CSV Access
+## What you’ll find
 
-- `companies.csv` (master file): `./companies.csv`
-- Columns: `company_name, careers_page_link`
+- 380+ companies with direct careers pages
+- Ireland-focused and Ireland-relevant employers
+- Searchable HTML index for quick browsing
+- A CSV file you can reuse or import into spreadsheets
 
----
+## Search terms this page is designed for
+
+- companies career pages links ireland
+- ireland company careers page
+- ireland tech jobs companies
+- careers page links ireland
+- it jobs ireland companies
+- software companies hiring in ireland
+
+## How to use
+
+- Open the HTML page and search by company name or URL
+- Use the CSV file if you want to filter, sort, or reuse the data elsewhere
+- Check back often because the list is periodically updated
+
+## Data format
+
+- `companies.csv` is the source file
+- Columns: `company_name`, `careers_page_link`
+
+## Notes
+
+- Links are periodically validated
+- If you find a broken link, please open an issue
+- If a company is missing, feel free to suggest it via Issues
 
 ## Stats
 
 - Total companies listed: **380**
-
----
 
 ## Companies and Career Links (Ireland IT)
 
@@ -49,10 +70,10 @@ A curated list of companies in Ireland (and Ireland-relevant entities) that hire
 - **Afiniti AI Limited**: [Career Page](https://www.afiniti.com/careers)
 - **Agilent Technologies Ireland Limited**: [Career Page](https://careers.agilent.com/)
 - **AIG Europe SA**: [Career Page](https://www.aig.com/careers)
-- **Allied Irish Banks**: [Career Page](Public Limited Company)
+- **Allied Irish Banks**: [Career Page](https://aib.ie/careers)
 - **Amazon Data Services Ireland Limited**: [Career Page](https://www.amazon.jobs/en/locations/dublin-ireland)
 - **Amazon Development Centre Ireland Limited**: [Career Page](https://www.amazon.jobs/en/locations/dublin-ireland)
-- **Amazon EU Sarl**: [Career Page](Irish Branch)
+- **Amazon EU Sarl, Irish Branch**: [Career Page](https://www.amazon.jobs/en/locations/dublin-ireland)
 - **Amazon Ireland Support Services Limited**: [Career Page](https://www.amazon.jobs/en/locations/dublin-ireland)
 - **Amazon Web Services EMEA SARL**: [Career Page](https://www.amazon.jobs/en/teams/amazon-web-services)
 - **Amdocs Software Systems Limited**: [Career Page](https://www.amdocs.com/careers)
@@ -407,6 +428,3 @@ A curated list of companies in Ireland (and Ireland-relevant entities) that hire
 
 _Last generated: 2026-07-21_
 <!-- COMPANIES:END -->
-
----
-
