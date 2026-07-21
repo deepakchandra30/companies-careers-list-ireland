@@ -21,7 +21,7 @@ A curated list of companies in Ireland (and Ireland-relevant entities) that hire
 - **3M Healthcare EMEA Export Limited**: [Career Page](https://www.3m.com/3M/en_US/careers-us/)
 - **A & L Goodbody LLP**: [Career Page](https://www.algoodbody.com/careers)
 - **AA Ireland Limited**: [Career Page](https://jobs.theaa.com/)
-- **ABB Limited**: [Career Page](https://careers.abb/global/en)
+- **ABB Limited**: [Career Page](https://careers.abb/global/en/search-results)
 - **Abbott Diagnostics**: [Career Page](https://www.abbott.com/careers.html)
 - **Abbott Ireland**: [Career Page](https://www.abbott.com/careers.html)
 - **AbbVie Ireland NL B.V.**: [Career Page](https://careers.abbvie.com/)
