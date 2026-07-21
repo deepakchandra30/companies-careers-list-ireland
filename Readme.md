@@ -1,33 +1,62 @@
 # Companies Careers Pages Ireland (IT)
 
-A curated list of companies in Ireland (and Ireland-relevant entities) that hire for IT/tech roles, with direct careers pages.
+A curated, searchable list of **company careers page links in Ireland** for people looking for **IT, tech, software, and engineering jobs**.
 
-> ✅ Links are periodically validated  
-> 🔎 Use browser search (`Ctrl/Cmd + F`) to find a company quickly
+## Why this repo exists
 
----
+Finding Ireland careers pages is often surprisingly hard because company job links are buried across websites, job boards, and regional pages. This repo brings those links together in one place so you can quickly search by company name or careers URL.
 
-## Quick CSV Access
+## What you'll find
 
-- `companies.csv` (master file): `./companies.csv`
-- Columns: `company_name, careers_page_link`
+- 380+ companies with direct careers pages
+- Ireland-focused and Ireland-relevant employers
+- Searchable HTML index for quick browsing
+- A CSV file you can reuse or import into spreadsheets
 
----
+## Search terms this page is designed for
+
+- companies career pages links ireland
+- ireland company careers page
+- ireland tech jobs companies
+- careers page links ireland
+- it jobs ireland companies
+- software companies hiring in ireland
+
+## How to use
+
+- Open the HTML page and search by company name or URL
+- Use the CSV file if you want to filter, sort, or reuse the data elsewhere
+- Check back often because the list is periodically updated
+
+## Data format
+
+- `companies.csv` is the source file
+- Columns: `company_name`, `careers_page_link`
+
+## Notes
+
+- Links are periodically validated
+- If you find a broken link, please open an issue
+- If a company is missing, feel free to suggest it via Issues
+
+## Stats
+
+- Total companies listed: **380**
 
 ## Companies and Career Links (Ireland IT)
 
 <!-- COMPANIES:START -->
-- **2K Games Dublin Limited**: [Career Page](https://boards.greenhouse.io/2k)
-- **3M Healthcare EMEA Export Limited**: [Career Page](https://www.3m.com/3M/en_US/careers-us/)
+- **2K Games Dublin Limited**: [Career Page](https://job-boards.greenhouse.io/2k?offices%5B%5D=4007889003)
+- **3M Healthcare EMEA Export Limited**: [Career Page](https://3m.wd1.myworkdayjobs.com/en-US/Search?Location_Country=04a05835925f45b3a59406a2a6b72c8a)
 - **A & L Goodbody LLP**: [Career Page](https://www.algoodbody.com/careers)
-- **AA Ireland Limited**: [Career Page](https://jobs.theaa.com/)
+- **AA Ireland Limited**: [Career Page](https://www.theaa.ie/about-us/jobs/)
 - **ABB Limited**: [Career Page](https://careers.abb/global/en/search-results)
-- **Abbott Diagnostics**: [Career Page](https://www.abbott.com/careers.html)
-- **Abbott Ireland**: [Career Page](https://www.abbott.com/careers.html)
-- **AbbVie Ireland NL B.V.**: [Career Page](https://careers.abbvie.com/)
-- **ABEC Technologies Europe Limited**: [Career Page](https://www.abec.com/careers/)
-- **ABM Aviation UK Ltd.**: [Career Page](https://www.abm.com/careers/)
-- **Absorb Technology Limited**: [Career Page](https://www.absorbsoftware.com/careers/)
+- **Abbott Diagnostics**: [Career Page](https://www.jobs.abbott/us/en/search-results?keywords=ireland)
+- **Abbott Ireland**: [Career Page](https://www.jobs.abbott/us/en/search-results?keywords=ireland)
+- **AbbVie Ireland NL B.V.**: [Career Page](https://careers.abbvie.com/en/jobs?options=&page=1&ln=Ireland&la=&lo=&lr=100&li=IE)
+- **ABEC Technologies Europe Limited**: [Career Page](https://recruiting.paylocity.com/recruiting/jobs/All/5fa9e5d7-bb1d-4f88-ba0b-4eecc1af560a/ABEC-Inc?location=All%20Locations&department=All%20Departments)
+- **ABM Aviation UK Ltd.**: [Career Page](https://eiqg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?location=Ireland&locationId=300000000289351&locationLevel=country&mode=location)
+- **Absorb Technology Limited**: [Career Page](https://www.absorblms.com/company/careers?ashby_location_id=f4981120-29c0-479d-a6e7-29deaa76a63b)
 - **Accela Ireland Limited**: [Career Page](https://www.accela.com/company/careers/)
 - **Accenture Global Solutions Limited**: [Career Page](https://www.accenture.com/ie-en/careers)
 - **Accenture Limited**: [Career Page](https://www.accenture.com/ie-en/careers)
@@ -81,7 +110,7 @@ A curated list of companies in Ireland (and Ireland-relevant entities) that hire
 - **Becton Dickinson Research Centre Ireland Limited**: [Career Page](https://jobs.bd.com/)
 - **Beko Plc**: [Career Page](https://www.beko.co.uk/careers)
 - **Bentley Systems International Limited**: [Career Page](https://www.bentley.com/company/careers/)
-- **Bloomberg Data Management Services Limited**: [Career Page](https://www.bloomberg.com/company/careers/)
+- **Bloomberg Data Management Services Limited**: [Career Page](https://bloomberg.avature.net/careers/SearchJobs/?1845=%5B162465%5D)
 - **Bluebeam Limited**: [Career Page](https://www.bluebeam.com/company/careers/)
 - **Bluebird Care Dublin South Limited**: [Career Page](https://www.bluebirdcare.ie/careers)
 - **BNP Paribas**: [Career Page](Dublin Branch)
@@ -399,10 +428,3 @@ A curated list of companies in Ireland (and Ireland-relevant entities) that hire
 
 _Last generated: 2026-07-21_
 <!-- COMPANIES:END -->
-
----
-
-## Also Included (Worldwide List)
-
-> Keep your worldwide list below this section (manual content).
-
